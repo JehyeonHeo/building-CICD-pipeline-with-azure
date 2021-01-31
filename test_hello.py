@@ -11,9 +11,9 @@ def teardown_function(function):
     del function.x
 
 
-### Run to see failed test
+### Revise typo in on-purpose failed test
 def test_hello_add():
-    assert add(test_hello_add.x) == 12
+    assert add(test_hello_add.x) == 11
 
 def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
