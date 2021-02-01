@@ -1,6 +1,6 @@
 import random
-from locust import HttpUser, TaskSet, task, between
-class QuickstartUser(TaskSet):
+from locust import HttpUser, task, between
+class QuickstartUser(HttpUser):
     wait_time = between(5, 10)
     @task
     def index(self):
@@ -27,9 +27,4 @@ class QuickstartUser(TaskSet):
                 "0":4.98
             }
         })
-
-class WebsiteUser(HttpUser):
-    task_set = QuickstartUser
-    min_wait = 5000
-    max_wait = 9000
     host = "https://boston-housing-prediction-flask.azurewebsites.net"
