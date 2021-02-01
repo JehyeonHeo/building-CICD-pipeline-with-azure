@@ -17,9 +17,14 @@ Deploy Python machine learning app using Azure Cloud Shell, and Azure pipeline.
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
-* Project running on Azure App Service
+### Instructions for running the Python project.
 
 * Project cloned into Azure Cloud Shell
+git clone http://github.com/JehyeonHeo/building-CICD-pipeline-with-azure.git
+<img src="/path/to/img.jpg"></img><br/>
+
+* Checkout commit '2dd5b20' to experience continuous integration using Github Actions.
+git checkout 2dd5b20
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
@@ -27,20 +32,13 @@ Deploy Python machine learning app using Azure Cloud Shell, and Azure pipeline.
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
+* Project running on Azure App Service
+
 * Running Azure App Service from Azure Pipelines automatic deployment
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+* Successful prediction from deployed flask app in Azure Cloud Shell.
 
 * Output of streamed log files from deployed application
-
-> 
 
 ## Enhancements
 
