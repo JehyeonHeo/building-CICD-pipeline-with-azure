@@ -12,11 +12,8 @@ Deploy Python machine learning app using Azure Cloud Shell, and Azure pipeline.
 
 ## Instructions
 
-* Architectural Diagram of Continuous Integration
-> <img src="https://github.com/JehyeonHeo/building-CICD-pipeline-with-azure/blob/main/Screenshots/CI-architecture.png?raw=true" title="CI architecture diagram"></img>
-
-* Architectural Diagram of Continuous Delivery
-> <img src="https://github.com/JehyeonHeo/building-CICD-pipeline-with-azure/blob/main/Screenshots/CD-architecture.png?raw=true" title="CD architecture diagram"></img>
+* Architectural Diagram of Continuous Integration/Continuous Delivery
+> <img src="https://github.com/JehyeonHeo/building-CICD-pipeline-with-azure/blob/main/Screenshots/CICD-architecture.png?raw=true" title="CI/CD architecture diagram"></img>
 
 ### Instructions for running the Python project.
 
