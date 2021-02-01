@@ -20,11 +20,12 @@ Deploy Python machine learning app using Azure Cloud Shell, and Azure pipeline.
 ### Instructions for running the Python project.
 
 * Project cloned into Azure Cloud Shell
-git clone http://github.com/JehyeonHeo/building-CICD-pipeline-with-azure.git
-<img src="/path/to/img.jpg"></img><br/>
+> git clone http://github.com/JehyeonHeo/building-CICD-pipeline-with-azure.git
+
+<img src="https://github.com/JehyeonHeo/building-CICD-pipeline-with-azure/blob/main/Screenshots/Github-repo-clone-to-Azure-cloud-shell.png?raw=true"></img><br/>
 
 * Checkout commit '2dd5b20' to experience continuous integration using Github Actions.
-git checkout 2dd5b20
+> git checkout 2dd5b20
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
