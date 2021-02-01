@@ -12,10 +12,11 @@ Deploy Python machine learning app using Azure Cloud Shell, and Azure pipeline.
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram of Continuous Integration
+> <img src="https://github.com/JehyeonHeo/building-CICD-pipeline-with-azure/blob/main/Screenshots/CI-architecture.png?raw=true" title="CI architecture diagram"></img>
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+* Architectural Diagram of Continuous Delivery
+> <img src="https://github.com/JehyeonHeo/building-CICD-pipeline-with-azure/blob/main/Screenshots/CD-architecture.png?raw=true" title="CD architecture diagram"></img>
 
 ### Instructions for running the Python project.
 
@@ -26,8 +27,8 @@ Deploy Python machine learning app using Azure Cloud Shell, and Azure pipeline.
 
 * Clone the project repo to Azure Cloud Shell
 > git clone http://github.com/JehyeonHeo/building-CICD-pipeline-with-azure.git
-
-<img src="https://github.com/JehyeonHeo/building-CICD-pipeline-with-azure/blob/main/Screenshots/Github-repo-clone-to-Azure-cloud-shell.png?raw=true" title="Project cloned into Azure Cloud Shell"></img>
+>
+> <img src="https://github.com/JehyeonHeo/building-CICD-pipeline-with-azure/blob/main/Screenshots/Github-repo-clone-to-Azure-cloud-shell.png?raw=true" title="Project cloned into Azure Cloud Shell"></img>
 
 * Checkout 'CI-learning' branch to experience continuous integration using Github Actions.
 > cd building-CICD-pipeline-with-azure
@@ -36,8 +37,8 @@ Deploy Python machine learning app using Azure Cloud Shell, and Azure pipeline.
 * Run 'make all' command in virtual environment to install packages, lint and test hello.py.
 > source ~/.myrepo/bin/activate
 > make all
-
-<img src="https://github.com/JehyeonHeo/building-CICD-pipeline-with-azure/blob/main/Screenshots/Local-test-passed.png?raw=true" title="Passing tests after running the `make all` command from the `Makefile`"></img>
+> 
+> <img src="https://github.com/JehyeonHeo/building-CICD-pipeline-with-azure/blob/main/Screenshots/Local-test-passed.png?raw=true" title="Passing tests after running the `make all` command from the `Makefile`"></img>
 
 * Checkout 'main' branch to experience continuous deployment using Azure pipeline.
 > rm -r \_\_pycache__
