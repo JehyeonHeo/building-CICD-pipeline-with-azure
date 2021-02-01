@@ -1,12 +1,14 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+Deploy Python machine learning app using Azure Cloud Shell, and Azure pipeline.
 
 ## Project Plan
-<TODO: Project Plan
 
 * A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+> [Trello board link](https://trello.com/b/OsHpFeHa/azure-ci-cd-pipeline-with-ml)
+
+* A link to a spreadsheet that includes the original and final project plan
+> [Project management spreadsheets link](https://github.com/JehyeonHeo/building-CICD-pipeline-with-azure/tree/main/Project%20management%20spreadsheets)
 
 ## Instructions
 
