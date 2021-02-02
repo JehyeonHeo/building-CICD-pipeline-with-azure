@@ -19,7 +19,7 @@ def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
     
 if __name__ == "__main__":
-    print("This is Demo Test for test.py')
+    print("This is Demo Test for test.py")
     setup_function(add)
     test_hello_add()
     setup_function(subtract)
