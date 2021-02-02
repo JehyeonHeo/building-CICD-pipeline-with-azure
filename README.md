@@ -134,6 +134,6 @@ Deploy Python machine learning app using Azure Cloud Shell, and Azure pipeline.
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+[Youtube demo video link](https://youtu.be/hh6QrCT6PAI)
 
 
