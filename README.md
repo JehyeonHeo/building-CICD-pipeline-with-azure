@@ -37,6 +37,9 @@ Deploy Python machine learning app using Azure Cloud Shell, and Azure pipeline.
 > 
 > <img src="https://github.com/JehyeonHeo/building-CICD-pipeline-with-azure/blob/main/Screenshots/Local-test-passed.png?raw=true" title="Passing tests after running the `make all` command from the `Makefile`"></img>
 
+* You can check that install, lint, and test commands can be used normally through Github Actions, too. You can see the test success output in the below screenshot.
+> <img src="https://github.com/JehyeonHeo/building-CICD-pipeline-with-azure/blob/main/Screenshots/Github-actions-success-test-output.png?raw=true" title="Github Actions success test output"></img>
+
 * Checkout 'main' branch to experience continuous deployment using Azure pipeline.
 > rm -r \_\_pycache__
 >
